@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>DASHMIN - Bootstrap Admin Template</title>
+    <title>User Page</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -55,7 +55,7 @@
                     </div>
                     <div class="ms-3">
                         <h6 class="mb-0">{{Auth()->user()->name}}</h6>
-                        <span>Admin</span>
+                        <span>User</span>
                     </div>
                 </div>
                 <div class="navbar-nav w-100">

@@ -72,6 +72,7 @@ https://templatemo.com/tm-568-digimedia
                     <br><font><i>Development By Surya Kindi.</i></font>
                     <br><font><i>Inspiration Aplication From Peduli Lindungi.</i></font>
                     
+                    
                   </div>
                 </div>
               </div>
