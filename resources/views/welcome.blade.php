@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" href="/assets-landingpage/favicon.png">
-    <title>Lindungi Dirimu</title>
+    <title>Lindungi Diri</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/assets-landingpage/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -60,14 +60,17 @@ https://templatemo.com/tm-568-digimedia
               <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="row">
                   <div class="col-lg-12">
-                    <h6>Lindingu Dirimu</h6>
+                    <h6>Lindingi Diri Mu</h6>
                     <h2>Catat Perjalanan Kamu</h2>
-                    <p>Catat perjalananmu hari ini, tetap patuhi protokol kesehatan, agar terhindar dari virus dari luar.</p>
+                    <font style="color:grey">Catat perjalananmu hari ini, tetap patuhi protokol kesehatan, agar dapat membantu memutus rantai penularan virus.</font>
+                    
                   </div>
-                  <div class="col-lg-12">
+                  <div class="col-lg-12"><br>
                     <div class="border-first-button scroll-to-section">
                       <a href="/login">Disini</a>
-                    </div><br><font><i>Development By Surya Kindi.</i></font>
+                    </div>
+                    <br><font><i>Development By Surya Kindi.</i></font>
+                    <br><font><i>Inspiration Aplication From Peduli Lindungi.</i></font>
                     
                   </div>
                 </div>
