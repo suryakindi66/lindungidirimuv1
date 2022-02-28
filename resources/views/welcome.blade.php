@@ -33,6 +33,7 @@ https://templatemo.com/tm-568-digimedia
 
 <body>
 
+
   <!-- ***** Preloader Start ***** -->
   <div id="js-preloader" class="js-preloader">
     <div class="preloader-inner">
@@ -46,12 +47,12 @@ https://templatemo.com/tm-568-digimedia
   </div>
   <!-- ***** Preloader End ***** -->
 
-  
+
 
 
 
   <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-    <div class="container">
+    <div class="container" style="margin-top: -150px">
       <div class="row">
         <div class="col-lg-12">
           <div class="row">
@@ -66,7 +67,8 @@ https://templatemo.com/tm-568-digimedia
                   <div class="col-lg-12">
                     <div class="border-first-button scroll-to-section">
                       <a href="/login">Disini</a>
-                    </div>
+                    </div><br><font><i>Development By Surya Kindi.</i></font>
+                    
                   </div>
                 </div>
               </div>

@@ -80,9 +80,6 @@
                 <a href="#" class="sidebar-toggler flex-shrink-0">
                     <i class="fa fa-bars"></i>
                 </a>
-                <form class="d-none d-md-flex ms-4">
-                    <input class="form-control border-0" type="search" placeholder="Search">
-                </form>
                 <div class="navbar-nav align-items-center ms-auto">
                    
                     <div class="nav-item dropdown">
@@ -124,11 +121,18 @@
 
 
             <!-- Recent Sales Start -->
+            <br>
+            <div class="form-group">
+                <form action="/user/dashboard">
+              <input type="text" placeholder="Search Lokasi" style="margin-left: 40px" name="search">
+                </form>
+              </div>
             <div class="container-fluid pt-4 px-4">
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
                         <h6 class="mb-0">User : {{Auth()->user()->name}}</h6>
                         <a href="/user/dashboard/add-data"><button class="btn btn-warning">Tambah Catatan</button></a>
+                        
                     </div>
                     <div class="table-responsive">
                         <table class="table text-start align-middle table-bordered table-hover mb-0">
