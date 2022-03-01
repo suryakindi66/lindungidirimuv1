@@ -147,10 +147,10 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach ($datacatatan as $item)
-                                    
-                                
+                              
+                                @foreach ($datacatatan as $item)     
                                 <tr>
+                                   
                                     <td>{{$item->tanggal_masuk}}</td>
                                     <td>{{$item->jam_masuk}}</td>
                                     <td>{{$item->jam_keluar}}</td>
@@ -160,7 +160,11 @@
                                 </tr>
                                 @endforeach
                             </tbody>
-                        </table>
+                          
+                        </table><br>
+                        @if(session()->has('datatidakada'))
+                        <p style="color:gray">Tidak Ada Catatan Perjalanan</p>
+                        @endif
                     </div>
                 </div>
             </div>

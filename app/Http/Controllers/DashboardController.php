@@ -17,12 +17,20 @@ class DashboardController extends Controller
      */
     public function index()
     {
-        if(request('search')){
+        $ambildatacatatan = CatatanPerjalanan::where('user_id', Auth()->user()->id)->get();
+        
+        if (CatatanPerjalanan::where('user_id', Auth()->user()->id)->doesntExist()) {
+            request(session()->flash('datatidakada'));
+        }
+        elseif(request('search')){
             $ambildatacatatan = CatatanPerjalanan::where('lokasi', 'LIKE', '%'.request('search').'%')->get();
         }else{
-            $ambildatacatatan = CatatanPerjalanan::where('user_id', Auth()->user()->id)->get();
+            $ambildatacatatan;
         }
+
+      
     
+      
         $hitungdatacatatan = CatatanPerjalanan::where('user_id', Auth()->user()->id)->count();
         return view('dashboard.dashboard', ['datacatatan'=>$ambildatacatatan, 'hitungdatacatatan'=>$hitungdatacatatan]);
     }
