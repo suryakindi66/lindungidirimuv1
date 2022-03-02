@@ -41,6 +41,7 @@ Route::group(['middleware'=>['auth']], function(){
     Route::post('/user/dashboard/add-data', [DashboardController::class, 'postadddata']);
     Route::get('/user/dashboard/delete/{id}', [DashboardController::class, 'delete']);
     Route::get('/user/dashboard/profile/{id}', [DashboardController::class, 'vieweditprofile']);
+    Route::get('/user/dashboard/cetak-data', [DashboardController::class, 'cetakdata']);
     Route::post('/user/dashboard/profile/{id}', [DashboardController::class, 'posteditprofile']);
     Route::get('/user/logout', [DashboardController::class, 'logout']);
     

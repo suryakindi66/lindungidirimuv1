@@ -118,9 +118,10 @@ class DashboardController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function cetakdata()
     {
-        //
+        $data = CatatanPerjalanan::where('user_id', Auth()->user()->id)->get();
+        return view('dashboard.cetak-data', ['data' => $data]);
     }
     public function logout()
     {

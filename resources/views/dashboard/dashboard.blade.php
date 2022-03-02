@@ -131,7 +131,8 @@
                 <div class="bg-light text-center rounded p-4">
                     <div class="d-flex align-items-center justify-content-between mb-4">
                         <h6 class="mb-0">User : {{Auth()->user()->name}}</h6>
-                        <a href="/user/dashboard/add-data"><button class="btn btn-warning">Tambah Catatan</button></a>
+                        <a href="/user/dashboard/cetak-data"><button class="btn btn-warning">Cetak Semua Data Perjalanan</button></a>
+                        <a href="/user/dashboard/add-data"><button class="btn btn-success">Tambah Catatan</button></a>
                         
                     </div>
                     <div class="table-responsive">
