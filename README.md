@@ -6,7 +6,16 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
-
+## INSTALATION
+CLONE THIS REPOSITORY / DOWNLOAD .ZIP
+EXTRACT IF YOU DOWNLOAD WITH .ZIP
+OPEN CMD, AND DIRECT TO YOUR PROJECT DIRECTORY THEN INSTALL COMPOSER FIRST ( composer --install ) TO GET VENDOR FOLDER
+CREATE DB WITH PHPMYADMIN OR SOMETHING LIKE THAT WITH DB NAME : lindungi_dirimu
+CHANGE file .env.example >> .env
+BACK TO CMD, AND RUN THIS ( php artisan migrate )
+AND THEN, RUNNING THE PROJECT ON CMD WITH ( php artisan serve )
+OPEN http://127.0.0.1:8000/
+ENJOY :)
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
